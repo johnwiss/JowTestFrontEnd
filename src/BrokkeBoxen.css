@@ -1,0 +1,68 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.icon {
+  width: 50px;
+}
+
+.emoji {
+  font-size: 24px;
+  display: block;
+  margin-top: 10px;
+}
+
+.anon {
+  font-style: italic;
+  color: #555;
+}
+
+.brok-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ff6666;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e05555;
+}
+
+.response {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
